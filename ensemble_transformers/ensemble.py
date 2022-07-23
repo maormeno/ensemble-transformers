@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from PIL.Image import Image
 
-from ensemble_transformers.base import EnsembleBaseModel
+from .base import EnsembleBaseModel
 
 
 class EnsembleModelForSequenceClassification(EnsembleBaseModel):
